@@ -21,4 +21,8 @@
   }
 }
 
-@include font-face("Roboto", "../fonts/RobotoRegular/RobotoRegular", 400);
+@include font-face("Gilroy", "../fonts/Gilroy-Regular/Gilroy-Regular", 400);
+@include font-face("Gilroy", "../fonts/Gilroy-Medium/Gilroy-Medium", 500);
+@include font-face("Gilroy", "../fonts/Gilroy-SemiBold/Gilroy-SemiBold", 600);
+@include font-face("Gilroy", "../fonts/Gilroy-Bold/Gilroy-Bold", 700);
+@include font-face("Gilroy", "../fonts/Gilroy-Black/Gilroy-Black", 900);

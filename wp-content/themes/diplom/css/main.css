@@ -1,12 +1,48 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Gilroy";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular/RobotoRegular.svg#Roboto") format("svg");
+  src: url("../fonts/Gilroy-Regular/Gilroy-Regular.eot");
+  src: url("../fonts/Gilroy-Regular/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular/Gilroy-Regular.ttf") format("truetype"), url("../fonts/Gilroy-Regular/Gilroy-Regular.svg#Gilroy") format("svg");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Medium/Gilroy-Medium.eot");
+  src: url("../fonts/Gilroy-Medium/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium/Gilroy-Medium.ttf") format("truetype"), url("../fonts/Gilroy-Medium/Gilroy-Medium.svg#Gilroy") format("svg");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot");
+  src: url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.ttf") format("truetype"), url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.svg#Gilroy") format("svg");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold/Gilroy-Bold.eot");
+  src: url("../fonts/Gilroy-Bold/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype"), url("../fonts/Gilroy-Bold/Gilroy-Bold.svg#Gilroy") format("svg");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Black/Gilroy-Black.eot");
+  src: url("../fonts/Gilroy-Black/Gilroy-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Black/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black/Gilroy-Black.ttf") format("truetype"), url("../fonts/Gilroy-Black/Gilroy-Black.svg#Gilroy") format("svg");
 }
 
 html,
@@ -145,8 +181,8 @@ table {
 :root {
   --container-width: 1260px;
   --transition: 0.3s ease;
-  --default-font-family: "Roboto";
-  --heading-font-family: "Roboto";
+  --default-font-family: "Gilroy";
+  --heading-font-family: "Gilroy";
   --sp: 70px;
   --accent: #FFB93E;
   --bg: #fff;
@@ -207,19 +243,22 @@ form input.not_error {
 }
 
 h1 {
-  font: 800 var(--h1)/106% var(--heading-font-family);
+  font: 700 var(--h1)/106% var(--heading-font-family);
+  text-transform: uppercase;
 }
 
 h2 {
-  font: 800 var(--h2)/125% var(--heading-font-family);
+  font: 700 var(--h2)/125% var(--heading-font-family);
+  text-transform: uppercase;
 }
 
 h3 {
-  font: 800 var(--h3)/130% var(--heading-font-family);
+  font: 700 var(--h3)/130% var(--heading-font-family);
+  text-transform: uppercase;
 }
 
 h4 {
-  font: 800 var(--h4)/133% var(--heading-font-family);
+  font: 700 var(--h4)/133% var(--heading-font-family);
 }
 
 a {
@@ -293,6 +332,37 @@ a {
 
 .form .country-list .country-name {
   color: #333;
+}
+
+.post {
+  padding: 100px 0;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4 {
+  margin-bottom: 1em;
+}
+
+.post p {
+  margin: 1em 0;
+}
+
+.post ul {
+  list-style: disc;
+  padding-left: 20px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.post strong {
+  font-weight: 700;
+}
+
+.post em {
+  list-style: italic;
 }
 
 .modal-overlay {
