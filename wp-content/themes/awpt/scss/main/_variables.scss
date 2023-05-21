@@ -1,0 +1,42 @@
+@import "main/_mixins";
+:root {
+	--container-width: 1260px;
+	--transition: 0.3s ease;
+	--default-font-family: 'Roboto';
+	--heading-font-family: 'Roboto';
+	--sp: 70px; // section padding
+	--accent: #FFB93E; // accent color
+	--bg: #fff; // main bg color
+	--text-color: #0D2433; // text color
+	--fz-default: 18px; // default font size
+	--h1: 72px; // h1 font size
+	--h2: 72px; // h2 font size
+	--h3: 40px; // h3 font size
+	--h4: 30px; // h3 font size
+	--l: 27px; // large font size
+	--m: 21px; // medium font size
+	--s: 16px; // small font size
+	@include tablet {
+		--container-width: 760px;
+		--sp: 64px;
+		--fz-default: 16px;
+		--h1: 48px;
+		--h2: 48px;
+		--h3: 29px;
+		--h4: 20px;
+		--l: 20px;
+		--m: 18px;
+		--s: 14px;
+	}
+	@include mob {
+		--container-width: 360px;
+		--sp: 50px;
+		--fz-default: 16px;
+		--h1: 27px;
+		--h2: 27px;
+		--h3: 18px;
+		--l: 18px;
+		--m: 16px;
+		--s: 14px;
+	}
+}

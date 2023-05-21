@@ -1,0 +1,53 @@
+[11-Sep-2022 08:02:42 UTC] PHP Warning:  Сталася неочікувана помилка. Можливо, щось не так з сайтом WordPress.org або з налаштуваннями вашого серверу. Якщо проблема не вирішиться, зверніться на <a href="https://uk.wordpress.org/support/forums/">форуми підтримки</a>. (Не вдалося встановити захищене з'єднання з WordPress.org. Будь ласка, зв'яжіться з адміністратором сервера.) in C:\OpenServer\domains\wp-template.avis-studio.com\wp-includes\update.php on line 410
+[11-Sep-2022 08:02:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\wp-template.avis-studio.com\wp-includes\update.php:410) in C:\OpenServer\domains\wp-template.avis-studio.com\wp-admin\admin-header.php on line 9
+[11-Sep-2022 08:02:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\wp-template.avis-studio.com\wp-includes\update.php:410) in C:\OpenServer\domains\wp-template.avis-studio.com\wp-includes\option.php on line 1112
+[11-Sep-2022 08:02:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\wp-template.avis-studio.com\wp-includes\update.php:410) in C:\OpenServer\domains\wp-template.avis-studio.com\wp-includes\option.php on line 1113
+[07-Nov-2022 10:48:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pll_current_language() in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\header.php:1
+Stack trace:
+#0 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(785): require()
+#1 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#2 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(204): locate_template()
+#3 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\header.php(15): get_template_part()
+#4 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(783): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#6 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(48): locate_template()
+#7 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\page.php(1): get_header()
+#8 C:\OpenServer\domains\awp.avis-studio.com\wp in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\header.php on line 1
+[07-Nov-2022 10:50:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pll_current_language() in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\header.php:1
+Stack trace:
+#0 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(785): require()
+#1 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#2 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(204): locate_template()
+#3 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\header.php(15): get_template_part()
+#4 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(783): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#6 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(48): locate_template()
+#7 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\page.php(1): get_header()
+#8 C:\OpenServer\domains\awp.avis-studio.com\wp in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\header.php on line 1
+[07-Nov-2022 10:51:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pll_current_language() in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\footer.php:1
+Stack trace:
+#0 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(785): require()
+#1 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#2 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(204): locate_template()
+#3 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\footer.php(2): get_template_part()
+#4 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(783): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#6 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(92): locate_template()
+#7 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\page.php(22): get_footer()
+#8 C:\OpenServer\domains\awp.avis-studio.com\wp in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\footer.php on line 1
+[07-Nov-2022 10:51:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pll_current_language() in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\footer.php:1
+Stack trace:
+#0 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(785): require()
+#1 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#2 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(204): locate_template()
+#3 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\footer.php(2): get_template_part()
+#4 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(783): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\template.php(718): load_template()
+#6 C:\OpenServer\domains\awp.avis-studio.com\wp-includes\general-template.php(92): locate_template()
+#7 C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\page.php(22): get_footer()
+#8 C:\OpenServer\domains\awp.avis-studio.com\wp in C:\OpenServer\domains\awp.avis-studio.com\wp-content\themes\theme-name\template-parts\footer.php on line 1
+[02-Dec-2022 14:03:26 UTC] PHP Warning:  Сталася неочікувана помилка. Можливо, щось не так з сайтом WordPress.org або з налаштуваннями вашого серверу. Якщо проблема не вирішиться, зверніться на <a href="https://uk.wordpress.org/support/forums/">форуми підтримки</a>. (Не вдалося встановити захищене з'єднання з WordPress.org. Будь ласка, зв'яжіться з адміністратором сервера.) in C:\OpenServer\domains\awpt.avis-studio.com\wp-includes\update.php on line 728
+[02-Dec-2022 14:04:01 UTC] PHP Warning:  Сталася неочікувана помилка. Можливо, щось не так з сайтом WordPress.org або з налаштуваннями вашого серверу. Якщо проблема не вирішиться, зверніться на <a href="https://uk.wordpress.org/support/forums/">форуми підтримки</a>. (Не вдалося встановити захищене з'єднання з WordPress.org. Будь ласка, зв'яжіться з адміністратором сервера.) in C:\OpenServer\domains\awpt.avis-studio.com\wp-admin\includes\update.php on line 143
+[02-Dec-2022 14:07:17 UTC] PHP Warning:  Сталася неочікувана помилка. Можливо, щось не так з сайтом WordPress.org або з налаштуваннями вашого серверу. Якщо проблема не вирішиться, зверніться на <a href="https://uk.wordpress.org/support/forums/">форуми підтримки</a>. (Не вдалося встановити захищене з'єднання з WordPress.org. Будь ласка, зв'яжіться з адміністратором сервера.) in C:\OpenServer\domains\awpt.avis-studio.com\wp-includes\update.php on line 447
+[02-Dec-2022 14:07:29 UTC] PHP Warning:  Сталася неочікувана помилка. Можливо, щось не так з сайтом WordPress.org або з налаштуваннями вашого серверу. Якщо проблема не вирішиться, зверніться на <a href="https://uk.wordpress.org/support/forums/">форуми підтримки</a>. (Не вдалося встановити захищене з'єднання з WordPress.org. Будь ласка, зв'яжіться з адміністратором сервера.) in C:\OpenServer\domains\awpt.avis-studio.com\wp-includes\update.php on line 728
+[02-Dec-2022 14:07:42 UTC] PHP Warning:  Сталася неочікувана помилка. Можливо, щось не так з сайтом WordPress.org або з налаштуваннями вашого серверу. Якщо проблема не вирішиться, зверніться на <a href="https://uk.wordpress.org/support/forums/">форуми підтримки</a>. (Не вдалося встановити захищене з'єднання з WordPress.org. Будь ласка, зв'яжіться з адміністратором сервера.) in C:\OpenServer\domains\awpt.avis-studio.com\wp-includes\update.php on line 447

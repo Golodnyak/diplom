@@ -1,0 +1,47 @@
+body {
+	font-family: var(--default-font-family), Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: var(--fz-default);
+	line-height: 140%;
+	min-width: 360px;
+	color: var(--text-color);
+	position: relative;
+	background-color: var(--bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	outline: none;
+}
+
+.hidden {
+	display: none;
+	overflow: hidden;
+}
+
+.wrapper {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: var(--container-width);
+	padding: 0 10px;
+	width: 100%;
+}
+
+//validatorGM styles//
+form input.error {
+	box-shadow: inset 0px 0px 20px 1px rgba(255,0,0,0.3);
+	border: 2px solid red !important;}
+form input.not_error {
+	box-shadow: inset 0px 0px 20px 1px rgba(100,255,100,0.3);
+	border: 2px solid #99FF99 !important;}
+
+

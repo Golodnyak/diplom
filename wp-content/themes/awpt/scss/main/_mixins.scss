@@ -1,0 +1,46 @@
+@mixin flex($justify: null, $align: null, $flow: null, $gap: null) {
+	display: flex;
+	@if $justify {
+		justify-content: $justify;
+	}
+	@if $align {
+		align-items: $align;
+	}
+	@if $flow {
+		flex-flow: $flow;
+	}
+	@if $gap {
+		gap: $gap;
+	}
+}
+
+@mixin absolute($left: null, $top: null, $right: null, $bottom: null) {
+	position: absolute;
+	@if $left {
+		left: $left;
+	}
+	@if $top {
+		top: $top;
+	}
+	@if $right {
+		right: $right;
+	}
+	@if $bottom {
+		bottom: $bottom;
+	}
+}
+
+@mixin tablet { @media (max-width: 1260px) { @content; } }
+@mixin mob { @media (max-width: 760px) { @content; } }
+
+@mixin fz($size) {
+	@if $size == l {
+		font-size: var(--l);
+	}
+	@if $size == m {
+		font-size: var(--m);
+	}
+	@if $size == s {
+		font-size: var(--s);
+	}
+}

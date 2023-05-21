@@ -1,0 +1,7 @@
+@import "../../scss/main/_mixins";
+
+.example {
+	font-size: 20px;
+	@include flex(center, center, null, null);
+	@include mob {font-size: 15px;}
+}

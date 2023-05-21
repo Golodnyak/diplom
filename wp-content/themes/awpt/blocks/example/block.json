@@ -1,0 +1,32 @@
+{
+	"name": "acf/example",
+	"title": "Example",
+	"description": "A custom example block.",
+	"style": ["file:./example.css"],
+	"icon": "format-quote",
+	"category": "theme-blocks",
+	"keywords": ["example", "citate", "text"],
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "example.php"
+	},
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": false
+		}
+	},
+	"styles": [
+		{ "name": "default", "label": "default", "isDefault": true },
+		{ "name": "blue", "label": "Blue" },
+		{ "name": "dark", "label": "Dark" }
+	],
+	"example": {
+		"attributes": {
+			"mode": "preview"
+		}
+	}
+}

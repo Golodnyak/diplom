@@ -1,0 +1,64 @@
+.countdownHolder{
+	margin: 0 auto;
+	font: 30px/1 Roboto, sans-serif;
+	text-align:center;
+	letter-spacing:-3px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	.position{
+		display: inline-block;
+		height: 1em;
+		overflow: hidden;
+		position: relative;
+		width:0.5em;
+	}
+	/*Параметры цифр */
+	.digit{
+		position:absolute;
+		display:block;
+		border-radius:0.2em;
+		text-align:center;
+		color:#000;
+		letter-spacing:-1px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/*Параметры подложки для секций */
+	.countDays,
+	.countHours,
+	.countMinutes,
+	.countSeconds {
+		background:#fff;
+		border-radius:5px;
+		padding: 10px;
+	}
+	/*Параметры секций разделения (:)*/
+	.countDiv {
+		display:none;
+		width:10px;
+		height:1em;
+		position:relative;
+		&:before,
+		&:after {
+			position:absolute;
+			width:5px;
+			height:5px;
+			background-color:#444;
+			border-radius:50%;
+			left:50%;
+			margin-left:-3px;
+			top:0.2em;
+			box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+			content:'';
+		}
+		&:after {
+			top:0.6em;
+		}
+	}
+	/*Параметры вспомогательного текста (дни, часы, минуты, секунды)*/
+	.textdigit{
+		font-size:15px;
+		letter-spacing: 0px;
+	}
+}

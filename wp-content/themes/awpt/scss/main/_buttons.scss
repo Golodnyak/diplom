@@ -1,0 +1,15 @@
+.btn {
+	appearance: none;
+	 -webkit-appearance: none;
+}
+
+.subm {
+	cursor: pointer;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	&:hover,
+	&:focus {
+
+	}
+}

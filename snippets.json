@@ -1,0 +1,21 @@
+{
+	"Print to console": {
+		"scope": "scss",
+		"prefix": "@a",
+		"body": [
+			"@include absolute(${1:null}, ${2:null}, ${3:null}, ${4:null});",
+		],
+		"description": "arguments (left, top, right, bottom)"
+	}
+}
+
+{
+	"Print to console": {
+		"scope": "scss",
+		"prefix": "@f",
+		"body": [
+			"@include flex(${1:null}, ${2:null}, ${3:null}, ${4:null});",
+		],
+		"description": "arguments (justify-content, align-items, flex-flow, gap)"
+	}
+}

@@ -1,0 +1,12 @@
+.example {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 760px) {
+  .example {
+    font-size: 15px;
+  }
+}

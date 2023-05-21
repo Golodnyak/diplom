@@ -1,0 +1,33 @@
+// default typography styles
+h1 {
+	font-family: var(--heading-font-family);
+	font-weight: 800;
+	font-size: var(--h1);
+	line-height: 106%;
+}
+
+h2 {
+	font-family: var(--heading-font-family);
+	font-weight: 800;
+	font-size: var(--h2);
+	line-height: 125%;
+}
+
+h3 {
+	font-family: var(--heading-font-family);
+	font-weight: 800;
+	font-size: var(--h3);
+	line-height: 130%;
+}
+
+h4 {
+	font-family: var(--heading-font-family);
+	font-weight: 800;
+	font-size: var(--h4);
+	line-height: 133%;
+}
+
+a {
+	color: var(--text-color);
+	text-decoration: none;
+}
