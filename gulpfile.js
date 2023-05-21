@@ -1,6 +1,6 @@
-var theme = 'awpt';
+var theme = 'diplom';
 var themePath = 'wp-content/themes/'+theme;
-var domain = 'awpt.avis-studio.com';
+var domain = 'golodniakroman.website';
 
 const gulp = require('gulp')
 
