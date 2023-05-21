@@ -4,6 +4,8 @@
 
 .post {
 
+	padding: 100px 0;
+
 	h1,
 	h2,
 	h3,
@@ -29,4 +31,9 @@
 		list-style-type: italic;
 	}
 
+}
+
+.post-heading {
+	padding: 100px 0;
+	text-align: center;
 }

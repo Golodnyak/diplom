@@ -1,0 +1,16 @@
+.footer {
+	margin-top: auto;
+	background: #067ebf;
+	padding: 50px 0;
+	color: #fff;
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+	&__container {
+		@include flex(space-between, center, null, 10px);
+	}
+	&__menu {
+		@include flex(null, null, null, 20px);
+	}
+}

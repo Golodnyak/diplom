@@ -223,6 +223,9 @@ body {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
 }
 
 [class*=__container] {
@@ -240,6 +243,15 @@ form input.error {
 form input.not_error {
   box-shadow: inset 0px 0px 20px 1px rgba(100, 255, 100, 0.3);
   border: 2px solid #99FF99 !important;
+}
+
+.breadcrumbs {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
 }
 
 h1 {
@@ -334,6 +346,33 @@ a {
   color: #333;
 }
 
+.header {
+  padding: 10px 0;
+  background: #067ebf;
+  color: #fff;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 20px;
+}
+
+.post {
+  padding: 100px 0;
+}
+
 .post {
   padding: 100px 0;
 }
@@ -363,6 +402,35 @@ a {
 
 .post em {
   list-style: italic;
+}
+
+.post-heading {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.footer {
+  margin-top: auto;
+  background: #067ebf;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__menu {
+  display: flex;
+  gap: 20px;
 }
 
 .modal-overlay {

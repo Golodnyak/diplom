@@ -1,0 +1,15 @@
+.header {
+	padding: 10px 0;
+	background: #067ebf;
+	color: #fff;
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+	&__container {
+		@include flex(space-between, center, null, 10px);
+	}
+	&__menu {
+		@include flex(null, null, null, 20px);
+	}
+}
