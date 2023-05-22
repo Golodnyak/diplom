@@ -184,12 +184,12 @@ table {
   --default-font-family: "Gilroy";
   --heading-font-family: "Gilroy";
   --sp: 70px;
-  --accent: #FFB93E;
+  --accent: #067ebf;
   --bg: #fff;
   --text-color: #0D2433;
   --fz-default: 18px;
-  --h1: 72px;
-  --h2: 72px;
+  --h1: 60px;
+  --h2: 50px;
   --h3: 40px;
   --h4: 30px;
   --l: 27px;
@@ -409,6 +409,75 @@ a {
   text-align: center;
 }
 
+.theme {
+  padding-bottom: 100px;
+}
+
+.theme__header {
+  padding: 100px 0;
+}
+
+.theme__items {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  gap: 20px;
+}
+
+.theme .item {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.theme .item__tags {
+  display: flex;
+  gap: 20px;
+  transform: translateX(-30px);
+}
+
+.theme .item__tag {
+  display: inline-flex;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.theme .item__tag--lection {
+  background: #04405c;
+}
+
+.theme .item__tag--group-lesson {
+  background: #0a6b98;
+}
+
+.theme .item__tag--practical-lesson {
+  background: #0f94d1;
+}
+
+.theme .item__tag--practical-lesson {
+  background: #17ae90;
+}
+
+.theme .item__tag--laboratory-lesson {
+  background: #3517ae;
+}
+
+.theme .item__title {
+  margin-top: 5px;
+}
+
+.theme .item__title a {
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.theme .item__title a:hover {
+  color: #067ebf;
+}
+
 .footer {
   margin-top: auto;
   background: #067ebf;
@@ -581,10 +650,10 @@ a {
     --container-width: 760px;
     --sp: 64px;
     --fz-default: 16px;
-    --h1: 48px;
-    --h2: 48px;
-    --h3: 29px;
-    --h4: 20px;
+    --h1: 40px;
+    --h2: 30px;
+    --h3: 20px;
+    --h4: 18px;
     --l: 20px;
     --m: 18px;
     --s: 14px;
@@ -595,12 +664,5 @@ a {
   :root {
     --container-width: 360px;
     --sp: 50px;
-    --fz-default: 16px;
-    --h1: 27px;
-    --h2: 27px;
-    --h3: 18px;
-    --l: 18px;
-    --m: 16px;
-    --s: 14px;
   }
 }

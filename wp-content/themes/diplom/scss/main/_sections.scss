@@ -37,3 +37,46 @@
 	padding: 100px 0;
 	text-align: center;
 }
+
+.theme {
+	padding-bottom: 100px;
+	&__header {
+		padding: 100px 0;
+	}
+	&__items {
+		@include flex(space-between, null, wrap, 20px);
+	}
+	.item {
+		width: 100%;
+		border: 1px solid #ccc;
+		padding: 10px;
+		&__tags {
+			@include flex(null, null, null, 20px);
+			transform: translateX(-30px);
+		}
+		&__tag {
+			display: inline-flex;
+			padding: 5px 10px;
+			border-radius: 3px;
+			text-decoration: none;
+			color: #fff;
+
+			font-size: 16px;
+			&--lection {background: #04405c;}
+			&--group-lesson {background: #0a6b98;}
+			&--practical-lesson {background: #0f94d1;}
+			&--practical-lesson {background: #17ae90;}
+			&--laboratory-lesson {background: #3517ae;}
+		}
+		&__title {
+			margin-top: 5px;
+			a {
+				text-decoration: none;
+				transition: .3s ease;
+				&:hover {
+					color: #067ebf;
+				}
+			}
+		}
+	}
+}
