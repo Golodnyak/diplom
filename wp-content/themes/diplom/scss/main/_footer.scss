@@ -8,7 +8,11 @@
 		text-decoration: none;
 	}
 	&__container {
-		@include flex(space-between, center, null, 10px);
+		@include flex(space-between, center, wrap, 10px);
+		@include mob {
+			justify-content: center;
+			text-align: center;
+		}
 	}
 	&__menu {
 		@include flex(null, null, null, 20px);

@@ -369,6 +369,28 @@ a {
   gap: 20px;
 }
 
+.header .search__form {
+  width: 600px;
+  position: relative;
+}
+
+.header .search__form input {
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+  height: 30px;
+}
+
+.header .search__form button {
+  background: var(--accent);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
 .post {
   padding: 100px 0;
 }
@@ -494,6 +516,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-flow: wrap;
   gap: 10px;
 }
 
@@ -664,5 +687,10 @@ a {
   :root {
     --container-width: 360px;
     --sp: 50px;
+  }
+
+  .footer__container {
+    justify-content: center;
+    text-align: center;
   }
 }

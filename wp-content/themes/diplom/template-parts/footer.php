@@ -4,6 +4,10 @@
 
 		<a class="footer__logo lazy" data-bg="<?php echo get_bloginfo('template_directory');?>/img/footer__logo.svg" href="/">ТКП</a>
 
+		<div class="footer__author">
+			Автор дипломної роботи: Голодняк Роман Вікторович
+		</div>
+
 		<?php
 			$footerMenuArgs = array(
 				'container' => 'ul',

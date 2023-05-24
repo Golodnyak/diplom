@@ -2,6 +2,10 @@
 	<div class="header__container">
 		<a class="header__logo" href="/"> ТКП </a>
 
+		<div class="header__search">
+			<?php echo get_search_form();?>
+		</div>
+
 		<?php
 			$headerMenuArgs = array(
 				'container' => 'ul',
@@ -13,6 +17,8 @@
 			);
 			wp_nav_menu($headerMenuArgs);
 		?>
+
+
 
 		<!-- <div class="header__burger">
 			<span></span>
