@@ -29,7 +29,10 @@
 		--s: 14px;
 	}
 	@include mob {
-		--container-width: 360px;
 		--sp: 50px;
+		--h1: 30px;
+		--h2: 25px;
+		--h3: 20px;
+		--h4: 18px;
 	}
 }

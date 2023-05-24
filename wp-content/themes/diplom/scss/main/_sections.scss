@@ -1,5 +1,6 @@
 .post {
 	padding: 100px 0;
+	@include mob {padding: 50px 0;}
 }
 
 .post {
